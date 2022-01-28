@@ -1,0 +1,21 @@
+h1 {
+	color:red;
+	
+}
+.box{
+	border:solid red 5px;
+	width:9rem;
+	height:9rem;
+	margin:1px;
+	display:flex;
+	align-items:center;
+}
+.flex-boxes{
+	display:flex;
+	flex-direction:row;
+justify-content:space-evenly;
+}
+.conbox{
+	position:relative;
+	left:35%
+}
