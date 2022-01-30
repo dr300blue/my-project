@@ -8,7 +8,8 @@ h1 {
 	height:9rem;
 	margin:1px;
 	display:flex;
-	align-items:center center;
+	align-items:center;
+	justify-content:center;
 }
 .flex-boxes{
 	display:flex;
