@@ -1,3 +1,10 @@
+* {
+	box-sizing:border-box;
+}
+.box:nth-child(3){
+	background-color:green;
+	color:blue;
+}
 h1 {
 	color:red;
 	
