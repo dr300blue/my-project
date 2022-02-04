@@ -28,62 +28,97 @@ justify-content:space-evenly;
 	animation-timing-function:linear;
 	animation-name:rotate;
 	animation-iteration-count:infinite;
-	    border:red solid 5px;width:10rem;height:10rem;margin-top:70px;
-}
-#animdiv{
-	-ms-animation-duration:4s;
+	    border:red solid 5px;width:10rem;height:10rem;margin-top:30px;
+-ms-animation-duration:4s;
 	-ms-animation-delay:0s;
 	-ms-animation-timing-function:linear;
 	-ms-animation-name:rotate;
 	-ms-animation-iteration-count:infinite;
-	border:red solid 5px;width:10rem;height:10rem;margin-top:70px;
-}
-#animdiv{
-	-webkit-animation-duration:4s;
+-webkit-animation-duration:4s;
 	-webkit-animation-delay:0s;
 	-webkit-animation-timing-function:linear;
 	-webkit-animation-name:rotate;
 	-webkit-animation-iteration-count:infinite;
-	     border:red solid 5px;width:10rem;height:10rem;margin-top:70px;
-}
-#animdiv{
-	-moz-animation-duration:4s;
+-moz-animation-duration:4s;
 	-moz-animation-delay:0s;
 	-moz-animation-timing-function:linear;
 	-moz-animation-name:rotate;
 	-moz-animation-iteration-count:infinite;
-	    border:red solid 5px;width:10rem;height:10rem;margin-top:70px;
-}
-#animdiv{
-	-o-animation-duration:4s;
+-o-animation-duration:4s;
 	-o-animation-delay:0s;
 	-o-animation-timing-function:linear;
 	-o-animation-name:rotate;
 	-o-animation-iteration-count:infinite;
-	    border:red solid 5px;width:10rem;height:10rem;margin-top:70px;
 }
 @keyframes rotate{
-	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px; }
-to{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
+	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px; }
+to{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
 -moz-transform:rotateY(360deg);-o-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
 }
 @-webkit-keyframes rotate{
-	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px; }
-to{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
+	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px; }
+to{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
 -moz-transform:rotateY(360deg);-o-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
 }
 @-ms-keyframes rotate{
-	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px; }
-to{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
+	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px; }
+to{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
 -moz-transform:rotateY(360deg);-o-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
 }
 @-moz-keyframes rotate{
-	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px; }
-to{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
+	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px; }
+to{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
 -moz-transform:rotateY(360deg);-o-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
 }
 @-o-keyframes rotate{
-	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px; }
-to{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
+	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px; }
+to{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
 -moz-transform:rotateY(360deg);-o-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
 }
+.container{	
+	text-align:center;
+	margin:20px 10px 20px 10px; 
+	display:grid;
+	grid-template-rows:70px 70px 70px 70px 70px;
+grid-row-gap:5px;
+	}
+.container div {
+	color:white;
+	background-color:gray;
+}
+.gridstyle{
+	display:grid;
+	margin:50px 10px 50px 10px;
+	grid-template-rows:20rem 20rem 20rem 20rem 20rem;
+	grid-gap:5px 5px;
+grid-template-areas:
+"head head head head head"
+"sideleft sideleft nav nav nav"
+"sideleft sideleft nav nav nav"
+"sideleft sideleft cont cont cont"
+"foot foot foot foot foot"
+;
+}
+.boc{
+	text-align:center;
+	color:blue;
+	background-color:gray;
+}
+.head{
+grid-area:head;
+}
+.nav{
+	grid-area:nav;
+}
+.sideleft{
+	grid-area:sideleft;
+}
+.cont{
+	grid-area:cont;
+}
+.foot{
+grid-area:foot;
+}
+
+
+
