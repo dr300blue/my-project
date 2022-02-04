@@ -7,9 +7,8 @@
 }
 h1 {
 	color:red;
-	
 }
-.box{
+.box {
 	border:solid red 5px;
 	width:9rem;
 	height:9rem;
@@ -18,8 +17,20 @@ h1 {
 	align-items:center;
 	justify-content:center;
 }
-.flex-boxes{
+.flex-boxes {
 	display:flex;
 	flex-direction:row;
 justify-content:space-evenly;
+}
+#animdiv{
+	animation-duration:4s;
+	animation-delay:0s;
+	animation-timing-function:linear;
+	animation-name:rotate;
+	animation-iteration-count:infinite;
+	border:red solid 5px;width:10rem;height:10rem;margin-top:70px;
+}
+@keyframes rotate{
+	from{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px; }
+to{ border:red solid 5px;width:10rem;height:10rem;margin-top:70px;transform:rotateY(360deg);}
 }
