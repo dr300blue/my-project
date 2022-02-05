@@ -1,6 +1,7 @@
 * {
 	box-sizing:border-box;
 }
+
 .box:nth-child(3){
 	background-color:green;
 	color:blue;
@@ -8,6 +9,7 @@
 h1 {
 	color:red;
 }
+
 .box {
 	border:solid red 5px;
 	width:9rem;
@@ -22,6 +24,7 @@ h1 {
 	flex-direction:row;
 justify-content:space-evenly;
 }
+
 #animdiv{
 	animation-duration:4s;
 	animation-delay:0s;
@@ -75,17 +78,21 @@ to{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px;transform:rota
 to{ border:red solid 5px;width:10rem;height:10rem;margin-top:30px;transform:rotateY(360deg);-webkit-transform:rotateY(360deg);
 -moz-transform:rotateY(360deg);-o-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
 }
+
 .container{	
-	text-align:center;
 	margin:20px 10px 20px 10px; 
 	display:grid;
 	grid-template-rows:70px 70px 70px 70px 70px;
 grid-row-gap:5px;
 	}
 .container div {
+	display:flex;
+	align-items:center;
+	justify-content:center;
 	color:white;
 	background-color:gray;
 }
+
 .gridstyle{
 	display:grid;
 	margin:50px 10px 50px 10px;
@@ -100,8 +107,9 @@ grid-template-areas:
 ;
 }
 .boc{
-	text-align:center;
-	color:blue;
+	display:flex;
+	justify-content:center;
+	color:white;
 	background-color:gray;
 }
 .head{
