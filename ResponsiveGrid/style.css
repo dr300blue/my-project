@@ -1,6 +1,6 @@
 * {
 	box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
+font-family:Arial;
 }
 h1 {
     color:red;
@@ -14,7 +14,6 @@ h1 {
 p {
 word-wrap:break-word;
 padding-right:5%;
-margin-top:0.4rem;
 }
 .box{
     word-wrap:break-word;
@@ -47,7 +46,7 @@ grid-area:three;
 }
 @media all and (min-width:768px) and (max-width:991.999px){
     .container{
-        grid-template-rows:12rem 12rem;
+        grid-template-rows:13.5rem 13.5rem;
         grid-template-areas:
         "one two"
         "three three"
@@ -57,7 +56,7 @@ grid-area:three;
 }
 @media all and (max-width:767.999px){
 .container{
-    grid-template-rows:12rem 12rem 12rem;
+    grid-template-rows:13.5rem 13.5rem 13.5rem;
 grid-template-areas:
 "one"
 "two"
@@ -68,10 +67,10 @@ grid-template-areas:
 }
 @media all and (min-width:992px){
     .container{
-        grid-template-rows:12rem;
+        grid-template-rows:13.5rem;
     grid-template-areas:
     "one two three "
     ;
     }
     
-    }
+}
