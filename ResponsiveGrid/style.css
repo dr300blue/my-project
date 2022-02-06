@@ -14,9 +14,9 @@ h1 {
 p {
 word-wrap:break-word;
 padding-right:5%;
+margin-top:0.35rem;
 }
 .box{
-    word-wrap:break-word;
     text-align:center;
 	color:white;
 	background-color:gray;
